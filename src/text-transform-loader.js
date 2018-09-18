@@ -27,7 +27,7 @@ function textTransformLoader(srcContent) {
 
   let content = srcContent;
   if (typeof transformText === 'function') {
-    content = transformText(content, loaderOptions);
+    content = transformText(content, loaderOptions, this);
   }
   if (prependText) {
     content = prependText + content;

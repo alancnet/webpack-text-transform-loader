@@ -1,6 +1,6 @@
 {
   "name": "text-transform-loader",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Webpack loader to prepend, append, or otherwise modify the text content of a module",
   "main": "lib/text-transform-loader.js",
   "scripts": {
